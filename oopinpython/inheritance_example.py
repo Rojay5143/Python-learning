@@ -50,6 +50,7 @@ class Customer(User):
 admin = Admin ("admin123", "ad@gmail.com", "pass123")
 product =Product("Ram", "ram@gmail.com", "pass123")
 customer = Customer('customer', "ustomer@cu.com", "pass123")
+customer = Customer('Hari har', "Harihar@cu.com", "pass123")
 
 #accessing classs
 print(admin.login()) 
